@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="vzMn41" name="NewProject" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="uSqhAv" name="NewProject">
+    <GROUP id="{B25DADDD-372D-F80B-619F-954B51541050}" name="Source">
+      <FILE id="Ruajf2" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="VDlSPB" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="vvKvnp" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <GROUP id="{F3ADEDFC-E9C4-351D-0503-FA6C8ABE6A66}" name="Components">
+      <GROUP id="{0EECDC20-56FB-EDFC-029E-ED41CE135541}" name="DetailViewPanel">
+        <FILE id="l5KSAt" name="DetailView.cpp" compile="1" resource="0" file="Source/Components/DetailViewPanel/DetailView.cpp"/>
+        <FILE id="Y8t55M" name="DetailView.h" compile="0" resource="0" file="Source/Components/DetailViewPanel/DetailView.h"/>
+        <FILE id="GcItNN" name="DetailViewActionsTray.cpp" compile="1" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewActionsTray.cpp"/>
+        <FILE id="DulOZp" name="DetailViewActionsTray.h" compile="0" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewActionsTray.h"/>
+        <FILE id="xI7C9F" name="DetailViewPanel.cpp" compile="1" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewPanel.cpp"/>
+        <FILE id="hlroqy" name="DetailViewPanel.h" compile="0" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewPanel.h"/>
+        <FILE id="enCHOg" name="DetailViewSettingsTray.cpp" compile="1" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewSettingsTray.cpp"/>
+        <FILE id="mYdjbR" name="DetailViewSettingsTray.h" compile="0" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewSettingsTray.h"/>
+        <FILE id="HprQTp" name="DetailViewToolbarAccessory.cpp" compile="1"
+              resource="0" file="Source/Components/DetailViewPanel/DetailViewToolbarAccessory.cpp"/>
+        <FILE id="hSAk9m" name="DetailViewToolbarAccessory.h" compile="0" resource="0"
+              file="Source/Components/DetailViewPanel/DetailViewToolbarAccessory.h"/>
+        <FILE id="VPIydO" name="TracksTable.cpp" compile="1" resource="0" file="Source/Components/DetailViewPanel/TracksTable.cpp"/>
+        <FILE id="Bc5dO9" name="TracksTable.h" compile="0" resource="0" file="Source/Components/DetailViewPanel/TracksTable.h"/>
+      </GROUP>
+      <GROUP id="{B35B0B94-4BDB-624C-14BE-B2F9A35578EF}" name="ViewPanel">
+        <FILE id="hS2tTv" name="DragButton.h" compile="0" resource="0" file="Source/Components/ViewPanel/DragButton.h"/>
+        <FILE id="ZxyVKX" name="moduleToolbar.cpp" compile="1" resource="0"
+              file="Source/Components/ViewPanel/moduleToolbar.cpp"/>
+        <FILE id="IGsQe4" name="moduleToolbar.h" compile="0" resource="0" file="Source/Components/ViewPanel/moduleToolbar.h"/>
+        <FILE id="Nu3Hs2" name="PanelLayoutButton.h" compile="0" resource="0"
+              file="Source/Components/ViewPanel/PanelLayoutButton.h"/>
+        <FILE id="UkmK6z" name="PathLabel.h" compile="0" resource="0" file="Source/Components/ViewPanel/PathLabel.h"/>
+        <FILE id="qiEDHB" name="ToolbarAccessory.h" compile="0" resource="0"
+              file="Source/Components/ViewPanel/ToolbarAccessory.h"/>
+        <FILE id="FEI1TT" name="TopDownTray.cpp" compile="1" resource="0" file="Source/Components/ViewPanel/TopDownTray.cpp"/>
+        <FILE id="R8z6YV" name="TopDownTray.h" compile="0" resource="0" file="Source/Components/ViewPanel/TopDownTray.h"/>
+        <FILE id="Yrkhyk" name="TrayButton.h" compile="0" resource="0" file="Source/Components/ViewPanel/TrayButton.h"/>
+        <FILE id="GO8c8X" name="ViewPanel.cpp" compile="1" resource="0" file="Source/Components/ViewPanel/ViewPanel.cpp"/>
+        <FILE id="UoPIbY" name="ViewPanel.h" compile="0" resource="0" file="Source/Components/ViewPanel/ViewPanel.h"/>
+      </GROUP>
+      <GROUP id="{4533F7F1-0717-708D-CE04-9B3590FF48C3}" name="WaveViewPanel">
+        <FILE id="sVSbFC" name="mResizerBar.cpp" compile="1" resource="0" file="Source/Components/WaveViewPanel/mResizerBar.cpp"/>
+        <FILE id="CMpcnC" name="mResizerBar.h" compile="0" resource="0" file="Source/Components/WaveViewPanel/mResizerBar.h"/>
+        <FILE id="fc5JZ6" name="openGLComponent.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/openGLComponent.cpp"/>
+        <FILE id="qbXlFU" name="openGLComponent.h" compile="0" resource="0"
+              file="Source/Components/WaveViewPanel/openGLComponent.h"/>
+        <FILE id="VGBb01" name="TimecodeFields.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/TimecodeFields.cpp"/>
+        <FILE id="QGvhv8" name="TimecodeFields.h" compile="0" resource="0"
+              file="Source/Components/WaveViewPanel/TimecodeFields.h"/>
+        <FILE id="yEXyDT" name="TrackBoxComponent.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/TrackBoxComponent.cpp"/>
+        <FILE id="P9PKcE" name="TrackBoxComponent.h" compile="0" resource="0"
+              file="Source/Components/WaveViewPanel/TrackBoxComponent.h"/>
+        <FILE id="Vz8lIm" name="waveScroller.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/waveScroller.cpp"/>
+        <FILE id="af0nBj" name="waveScroller.h" compile="0" resource="0" file="Source/Components/WaveViewPanel/waveScroller.h"/>
+        <FILE id="Lz8sAS" name="WaveView.cpp" compile="1" resource="0" file="Source/Components/WaveViewPanel/WaveView.cpp"/>
+        <FILE id="hsikcd" name="WaveView.h" compile="0" resource="0" file="Source/Components/WaveViewPanel/WaveView.h"/>
+        <FILE id="OJKhzf" name="WaveViewActionsTray.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewActionsTray.cpp"/>
+        <FILE id="I3X3P0" name="WaveViewActionsTray.h" compile="0" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewActionsTray.h"/>
+        <FILE id="upZguU" name="WaveViewPanel.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewPanel.cpp"/>
+        <FILE id="IaewsL" name="WaveViewPanel.h" compile="0" resource="0" file="Source/Components/WaveViewPanel/WaveViewPanel.h"/>
+        <FILE id="bQ8AfZ" name="WaveViewSettingsTray.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewSettingsTray.cpp"/>
+        <FILE id="x5WZFO" name="WaveViewSettingsTray.h" compile="0" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewSettingsTray.h"/>
+        <FILE id="GjXfHl" name="WaveViewToolbarAccessory.cpp" compile="1" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewToolbarAccessory.cpp"/>
+        <FILE id="WPKHEo" name="WaveViewToolbarAccessory.h" compile="0" resource="0"
+              file="Source/Components/WaveViewPanel/WaveViewToolbarAccessory.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../introspecter/IntroJUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../introspecter/IntroJUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../introspecter/IntroJUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../introspecter/IntroJUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../introspecter/IntroJUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../introspecter/IntroJUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../introspecter/IntroJUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
